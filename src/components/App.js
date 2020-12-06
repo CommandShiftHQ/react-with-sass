@@ -1,9 +1,10 @@
 import React from 'react';
+import WelcomePage from './WelcomePage';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>React with SASS</h1>
+      <WelcomePage />
     </div>
   );
 }
