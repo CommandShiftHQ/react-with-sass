@@ -13,6 +13,13 @@
 .welcome-content {
   background-color: $color-off-white;
   color: $color-grey-dark;
+
+  &__logo {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
 }
 
 .welcome-banner {

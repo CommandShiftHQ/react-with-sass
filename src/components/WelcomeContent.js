@@ -12,7 +12,7 @@ const WelcomeContent = () => {
         <img
           src={common.logoImage}
           alt="we are ManchesterCodes"
-          className="logo"
+          className="welcome-content__logo"
         />
         <Switch>
           <Route exact path="/">
