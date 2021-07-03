@@ -1,0 +1,33 @@
+.input {
+  margin: 0 0 1rem;
+
+  label,
+  input {
+    width: 100%;
+    display: block;
+  }
+
+  label {
+    margin: 0 0 4px;
+    font-size: 0.8rem;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid $color-grey-light;
+    background-color: transparent;
+    padding: 10px 0;
+    outline: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-bottom-color: lighten($color-blue-medium, 10%);
+    }
+
+    &:focus {
+      background-color: white;
+      padding: 10px;
+    }
+  }
+}
