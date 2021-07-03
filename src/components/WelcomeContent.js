@@ -8,22 +8,24 @@ import common from "../config/common";
 const WelcomeContent = () => {
   return (
     <div className="welcome-content">
-      <img
-        src={common.logoImage}
-        alt="we are ManchesterCodes"
-        className="logo"
-      />
-      <Switch>
-        <Route exact path="/">
-          <RegisterForm />
-        </Route>
-        <Route path="/login">
-          <LoginForm />
-        </Route>
-        <Route path="/reset-password">
-          <ResetPasswordForm />
-        </Route>
-      </Switch>
+      <div className="welcome-content__form">
+        <img
+          src={common.logoImage}
+          alt="we are ManchesterCodes"
+          className="logo"
+        />
+        <Switch>
+          <Route exact path="/">
+            <RegisterForm />
+          </Route>
+          <Route path="/login">
+            <LoginForm />
+          </Route>
+          <Route path="/reset-password">
+            <ResetPasswordForm />
+          </Route>
+        </Switch>
+      </div>
     </div>
   );
 };

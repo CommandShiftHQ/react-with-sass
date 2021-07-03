@@ -1,0 +1,31 @@
+.welcome-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  background-color: $color-off-white;
+  color: $color-grey-dark;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 2rem;
+  }
+}
+
+.welcome-banner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  color: $color-off-white;
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  position: relative;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 2rem;
+  }
+
+  &__copy {
+    // z-index: 2;
+  }
+}
