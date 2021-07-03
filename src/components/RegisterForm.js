@@ -12,7 +12,7 @@ const RegisterForm = () => {
         variant="facebook"
         onClickHandler={() => {}}
       />
-      <div className="divider">or</div>
+      <div className="divider"><span>or</span></div>
       <Input field={fields.email} />
       <Input field={fields.password} />
       <Button text={buttons.submitSignIn.text} onClickHandler={() => {}} />
