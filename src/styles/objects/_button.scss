@@ -1,0 +1,22 @@
+[class^="button"] {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(black, 0);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(black, 0.2);
+  }
+}
+
+.button {
+  &--default {
+    background: linear-gradient(50deg, $color-yellow-gold, $color-yellow-light);
+  }
+  &--facebook {
+    color: #ffffff;
+    background-color: #3b5998;
+  }
+}
