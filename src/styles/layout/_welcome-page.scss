@@ -1,0 +1,25 @@
+.welcome-page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(360px, 33%) 1fr;
+  grid-template-rows: auto 1fr;
+
+  &__main {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+
+    @media screen and (max-width: 800px) {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+    }
+  }
+  &__aside {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+
+    @media screen and (max-width: 800px) {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+    }
+  }
+}
